@@ -329,11 +329,12 @@ div.radial-1 {
   position: relative;
 }
 div.radial-1 > div.gradient-1 {
-  display: inline;
+  display: flex ;
+  justify-content: center;
   width: 600px;
   height: 644.12px;
   top: 360px;
-  left: 749px;
+  left: 949px;
   position: absolute;
   background: radial-gradient(
     37.26% 37.26% at 50% 50%,
